@@ -1,0 +1,15 @@
+{
+  "short_name": "Frontend Dev assignment",
+  "name": "Frontend Dev assignment for de Bijenkorf",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
