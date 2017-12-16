@@ -11,7 +11,7 @@ class SearchForm extends PureComponent {
   render() {
     return (
       <div role="searchbox" className="searchBox">
-        <form className="searchForm" type="Search" onSubmit={this.handleSubmit.bind(this)}>
+        <form className="searchForm" type="search" onSubmit={this.handleSubmit.bind(this)}>
           <input className="inputField" type="search" placeholder="Zoeken"
             aria-label="zoeken" ref="input" />
           <button className="searchButton" type="submit" aria-label="submit">
