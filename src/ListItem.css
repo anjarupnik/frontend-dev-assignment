@@ -1,0 +1,11 @@
+.listItem {
+  width: 100%;
+  border: 1px solid #babfc6;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.listItemText {
+  margin: 1px;
+  padding: 3px;
+}
