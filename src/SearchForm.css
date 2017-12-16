@@ -2,6 +2,12 @@
   outline: none;
 }
 
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .searchForm {
   width: 100%;
   display: flex;
@@ -54,6 +60,11 @@ input[type="search"]::-webkit-search-cancel-button {
   display: none;
 }
 
+.list {
+  margin-left: 30px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 500px) {
   .searchForm {
     margin-top: 6%;
@@ -64,6 +75,9 @@ input[type="search"]::-webkit-search-cancel-button {
     width: 90%;
   }
 
+  .list {
+    width: 80%;
+  }
 }
 
 @media only screen and (min-width: 501px) {
@@ -73,5 +87,9 @@ input[type="search"]::-webkit-search-cancel-button {
 
   .inputField {
     width: 40%;
+  }
+
+  .list {
+    width: 30%;
   }
 }
