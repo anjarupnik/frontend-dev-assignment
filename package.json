@@ -6,7 +6,8 @@
     "canned": "^0.3.10",
     "enzyme-adapter-react-15": "^1.0.5",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "sinon": "^4.1.3"
   },
   "devDependencies": {
     "@storybook/react": "^3.2.8",

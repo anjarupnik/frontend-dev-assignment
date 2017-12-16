@@ -8,12 +8,14 @@ class SearchForm extends PureComponent {
     super(props)
     this.setActive = this.setActive.bind(this)
     this.state = {
-      active: false
+      active: false,
+      value: ''
     }
   }
 
   handleSubmit(event) {
     event.preventDefault()
+    this.setState({value: this.refs.input.value})
   }
 
   setActive() {
